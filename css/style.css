@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;    
+}
+
+.container-main{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: black;
+    /* height: 80vh;  */
+     
+}
+
+button{
+    padding: 3px;
+    background-color: gray; 
+    color: white;   
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 5px;
+}
+
+.container-head{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.card img{
+    width: 100%;
+    /* height: calc(100% / 5);     */
+    
+}
+
+.card{
+    width: calc(100% / 7);
+    height: calc(100% / 5);
+    padding: 5px;
+    position: relative;
+    display: flex;
+}
+
+.text{
+    background-color: gray;
+    width: 45%;
+    padding: 5px;
+    position: absolute;
+    bottom: 5px;   
+}
+
+.container-foot{
+    background-color: #333;
+    color: white;
+    justify-content: space-between;
+}
+
+.foot{
+    display: flex;
+}
+
+.mic-video{
+    display: flex;
+    align-items: center;
+    flex-basis: 15%;
+}
+
+.icon{
+    text-align: center;
+    padding: 5px;
+}
+
+.up-arrow{
+    margin: 0 20px;
+}
+
+.invite-more{
+    display: flex;
+    align-items: center;
+    flex-basis: 80%;
+    justify-content: center;
+}
+
+.end{
+    flex-basis: 5%;
+    align-items: center;
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    color: red;
+}
+
+.green{
+    color: rgb(39, 211, 39);
+}
+
+
+
+
+
